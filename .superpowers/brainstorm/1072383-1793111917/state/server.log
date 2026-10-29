@@ -1,3 +1,0 @@
-{"type":"server-started","port":54269,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:54269/?key=2b1d6550310dfdf63374775f06fdee665248fc664fb2fa53de83d73704c72ef3","screen_dir":"/home/malik/Projects/Malghnei/Malghnei/.superpowers/brainstorm/1072383-1793111917/content","state_dir":"/home/malik/Projects/Malghnei/Malghnei/.superpowers/brainstorm/1072383-1793111917/state","idle_timeout_ms":14400000}
-{"type":"screen-added","file":"/home/malik/Projects/Malghnei/Malghnei/.superpowers/brainstorm/1072383-1793111917/content/highlights-format.html"}
-{"type":"server-stopped","reason":"owner process exited"}
