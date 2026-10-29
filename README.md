@@ -25,6 +25,11 @@ Away from the keyboard: badminton, Taekwondo, rock climbing.
 
 <img src="assets/metrics.svg" alt="GitHub stats for Malghnei">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Malghnei/Malghnei/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/Malghnei/Malghnei/output/snake.svg" width="100%" alt="Contribution calendar eaten by a snake">
+</picture>
+
 ### `$` Highlights
 
 <table>
