@@ -1,0 +1,78 @@
+<h2>$ Highlights: three formats</h2>
+<p class="subtitle">Kata (favourite), WEAP Planning &amp; Control, Staying Alive. Condimental, 2D physics and BidFlow removed. Pick one.</p>
+
+<style>
+  .gh { background:#0d1117; color:#e6edf3; padding:20px; border-radius:6px; border:1px solid #30363d; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; font-size:14px; line-height:1.6; }
+  .gh a { color:#4493f8; text-decoration:none; }
+  .gh .dim { color:#9198a1; }
+  .gh blockquote { border-left:4px solid #3fb950; margin:0 0 14px; padding:2px 14px; }
+  .gh code { background:#262c36; padding:1px 6px; border-radius:4px; font-size:13px; }
+  .gh table { border-collapse:collapse; width:100%; }
+  .gh td { border:1px solid #30363d; padding:12px; vertical-align:top; width:50%; }
+  .gh h4 { margin:0 0 4px; font-size:16px; }
+  .gh ul { margin:4px 0 0; padding-left:20px; }
+</style>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Resume entries</h3>
+      <p>Role, one-line impact, links to real PRs. Reads like experience, which is what recruiters scan for.</p>
+      <div class="gh">
+        <blockquote>
+          <h4>★ Kata <span class="dim">· solo · Aug 2026 – now</span></h4>
+          Computer vision for martial arts: train anywhere, with or without a dojo.<br>
+          <code>TypeScript</code> <code>Python</code> <code>React Native</code> <code>Supabase</code> · <a href="#">see it →</a>
+        </blockquote>
+        <h4>Western Engineering Autopilot <span class="dim">· Planning &amp; Control team</span></h4>
+        <ul>
+          <li>Rebuilt the AP1 <b>console</b> control interface in Qt6 · <a href="#">PR #6 (merged)</a></li>
+          <li>Drag model + straight-world script for the P&amp;C simulator · <a href="#">pnc-sim #8</a></li>
+          <li>Gazebo model updates · <a href="#">pc-gazebo-lab #1</a></li>
+        </ul>
+        <h4 style="margin-top:12px">Staying Alive <span class="dim">· team of 5 · Apr 2026</span></h4>
+        2D type-to-survive game, built in 2–3 weeks. <code>Java</code> <code>Swing</code>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Feature + cards</h3>
+      <p>Kata gets a full-width spotlight; the other two sit side by side underneath.</p>
+      <div class="gh">
+        <table>
+          <tr><td colspan="2" style="width:100%">
+            <h4>★ Kata</h4>
+            <span class="dim">solo · Aug 2026 – now</span><br>
+            Computer vision for martial arts: train anywhere, with or without a dojo. Mobile app to database, built solo.<br>
+            <code>TypeScript</code> <code>Python</code> <code>React Native</code> <code>Supabase</code> <code>PostgreSQL</code>
+          </td></tr>
+          <tr>
+            <td><h4>WEAP · Planning &amp; Control</h4>Autonomous-car club. Qt6 rebuild of the AP1 console (<a href="#">merged</a>), simulator drag model, Gazebo work.<br><code>Python</code> <code>C++</code> <code>ROS 2</code></td>
+            <td><h4>Staying Alive</h4>2D type-to-survive game, team of 5, shipped in 2–3 weeks.<br><code>Java</code> <code>Swing</code></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Repo cards</h3>
+      <p>Live GitHub cards for public repos. Kata stays a text spotlight since it's private and a card can't render it.</p>
+      <div class="gh">
+        <blockquote>
+          <h4>★ Kata <span class="dim">· private · solo</span></h4>
+          Computer vision for martial arts: train anywhere, with or without a dojo.
+        </blockquote>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=WE-Autopilot&repo=console&theme=github_dark&hide_border=true&bg_color=161b22" height="120" alt="console">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=WE-Autopilot&repo=pnc-sim&theme=github_dark&hide_border=true&bg_color=161b22" height="120" alt="pnc-sim">
+        <p class="dim" style="margin:6px 0 0">Cards show the repo, not your part in it, so each needs a caption line.</p>
+      </div>
+    </div>
+  </div>
+</div>

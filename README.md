@@ -19,8 +19,6 @@ I'm most interested in software that touches the real world: computer vision, au
 
 Away from the keyboard: badminton, Taekwondo, rock climbing.
 
-`runs on: NixOS · Hyprland · Neovim · Kitty + Zsh · Nord`
-
 ### `$` Stats
 
 <img src="assets/metrics.svg" alt="GitHub stats for Malghnei">

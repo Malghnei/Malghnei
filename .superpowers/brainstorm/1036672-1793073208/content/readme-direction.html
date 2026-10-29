@@ -1,0 +1,60 @@
+<h2>Which direction feels like you?</h2>
+<p class="subtitle">Rough GitHub-profile mockups using only facts from your portfolio. Pick one to build on.</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Terminal echo</h3>
+      <p>Mirrors your Vim-style portfolio. A code block that "runs" a few commands about you.</p>
+      <pre style="background:#0d1117;color:#c9d1d9;padding:12px;border-radius:6px;font-size:12px;line-height:1.5;overflow:auto">$ whoami
+malik alghneimin — software developer, CS @ Western
+
+$ cat now.md
+building Kata, a martial arts training platform
+(React Native · TypeScript · Supabase)
+
+$ ls projects/
+kata/  condimental/  staying-alive/
+
+$ status
+open to 2027 internships
+$ contact --linkedin --portfolio</pre>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Changelog</h3>
+      <p>Your year as release notes. Reads fast, shows momentum, and recruiters see recent work first.</p>
+      <div style="background:#0d1117;color:#c9d1d9;padding:12px;border-radius:6px;font-size:13px;line-height:1.5">
+        <b>Malik Alghneimin</b> · CS @ Western · open to 2027 internships<br><br>
+        <b>v2026.8 — Kata</b><br>
+        · Martial arts training anywhere, with or without a dojo<br>
+        · TypeScript, Python, React Native, Supabase<br><br>
+        <b>v2026.4 — Condimental</b><br>
+        · Webcam + AI vision decides "does it go with mayo?"<br><br>
+        <b>v2026.4 — Staying Alive</b><br>
+        · 2D type-to-survive game, team of 5, 2–3 weeks, Java
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Status board</h3>
+      <p>Three plain blocks: building, shipped, looking for. Most scannable for a recruiter in 10 seconds.</p>
+      <div style="background:#0d1117;color:#c9d1d9;padding:12px;border-radius:6px;font-size:13px;line-height:1.6">
+        <b>Malik Alghneimin</b> — software developer, CS @ Western University<br><br>
+        <b>Building</b> &nbsp;Kata, a solo martial arts training platform<br>
+        <b>Shipped</b> &nbsp;Condimental · Staying Alive<br>
+        <b>Stack</b> &nbsp;TypeScript · Python · Java · React · Node · Postgres<br>
+        <b>Looking for</b> &nbsp;2027 internships<br>
+        <b>Also</b> &nbsp;martial arts, games, silly AI experiments<br><br>
+        <i>[Portfolio] · [LinkedIn] · [Email]</i>
+      </div>
+    </div>
+  </div>
+</div>
